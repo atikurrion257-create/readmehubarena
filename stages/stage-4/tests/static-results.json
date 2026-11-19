@@ -1,0 +1,276 @@
+{
+  "scope": "Static checks only; word count approximate. No claims verified by this test, no site/browser tests.",
+  "body_word_counts": {
+    "systeme-io-review": 2224,
+    "clickup-review": 2227,
+    "best-for-freelancers": 2504,
+    "clickup-alternatives": 2004,
+    "how-to-choose-project-management-software": 1828
+  },
+  "checks": [
+    {
+      "name": "systeme-io-review identity and draft/noindex",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review seo lengths",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review evidence mode",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review title hierarchy",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review question count",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review canonical",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review graph",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review tokens registered",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review tokens in blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review CTA maps match",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review evidence stamp",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-review target word count",
+      "pass": true
+    },
+    {
+      "name": "clickup-review identity and draft/noindex",
+      "pass": true
+    },
+    {
+      "name": "clickup-review seo lengths",
+      "pass": true
+    },
+    {
+      "name": "clickup-review evidence mode",
+      "pass": true
+    },
+    {
+      "name": "clickup-review title hierarchy",
+      "pass": true
+    },
+    {
+      "name": "clickup-review question count",
+      "pass": true
+    },
+    {
+      "name": "clickup-review canonical",
+      "pass": true
+    },
+    {
+      "name": "clickup-review graph",
+      "pass": true
+    },
+    {
+      "name": "clickup-review tokens registered",
+      "pass": true
+    },
+    {
+      "name": "clickup-review tokens in blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "clickup-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "clickup-review CTA maps match",
+      "pass": true
+    },
+    {
+      "name": "clickup-review evidence stamp",
+      "pass": true
+    },
+    {
+      "name": "clickup-review target word count",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers identity and draft/noindex",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers seo lengths",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers evidence mode",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers title hierarchy",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers question count",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers canonical",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers graph",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers tokens registered",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers tokens in blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers CTA maps match",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers evidence stamp",
+      "pass": true
+    },
+    {
+      "name": "best-for-freelancers target word count",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives identity and draft/noindex",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives seo lengths",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives evidence mode",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives title hierarchy",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives question count",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives canonical",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives graph",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives tokens registered",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives tokens in blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives CTA maps match",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives evidence stamp",
+      "pass": true
+    },
+    {
+      "name": "clickup-alternatives target word count",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software identity and draft/noindex",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software seo lengths",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software evidence mode",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software title hierarchy",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software question count",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software canonical",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software graph",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software tokens registered",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software tokens in blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software no sales CTA",
+      "pass": true
+    },
+    {
+      "name": "how-to-choose-project-management-software target word count",
+      "pass": true
+    },
+    {
+      "name": "five Page Files",
+      "pass": true
+    },
+    {
+      "name": "systeme-io worksheet",
+      "pass": true
+    },
+    {
+      "name": "clickup worksheet",
+      "pass": true
+    }
+  ]
+}

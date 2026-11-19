@@ -1,0 +1,39 @@
+{
+    "wp": "7.1.3",
+    "php": "8.2.35",
+    "rank_math": "1.0.280",
+    "results": [
+        {
+            "name": "Rank Math active",
+            "pass": true
+        },
+        {
+            "name": "Exactly one JSON-LD script",
+            "pass": true
+        },
+        {
+            "name": "Valid @graph",
+            "pass": true
+        },
+        {
+            "name": "Research graph contains no rating, review or offer",
+            "pass": true
+        },
+        {
+            "name": "Graph includes page title",
+            "pass": true
+        },
+        {
+            "name": "Thin tool directory gets Rank Math noindex",
+            "pass": true
+        },
+        {
+            "name": "Thin tool directory excluded from Rank Math sitemap",
+            "pass": true
+        },
+        {
+            "name": "Clean page remains in sitemap",
+            "pass": true
+        }
+    ]
+}

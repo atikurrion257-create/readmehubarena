@@ -1,0 +1,71 @@
+{
+    "scope": "Disposable WP\/ACF PHP integration; not a WP-CLI, browser or staging test.",
+    "wp": "7.1.3",
+    "php": "8.2.35",
+    "results": [
+        {
+            "name": "wrong expected host fails closed",
+            "pass": true
+        },
+        {
+            "name": "production is rejected",
+            "pass": true
+        },
+        {
+            "name": "publicly indexable staging is rejected",
+            "pass": true
+        },
+        {
+            "name": "collision blocks all writes and preserves existing page",
+            "pass": true
+        },
+        {
+            "name": "source hash mismatch blocks writes",
+            "pass": true
+        },
+        {
+            "name": "dry run plans 39 drafts with no creates",
+            "pass": true
+        },
+        {
+            "name": "apply creates 39 drafts",
+            "pass": true
+        },
+        {
+            "name": "every generated record is draft, noindex and blocked",
+            "pass": true
+        },
+        {
+            "name": "front-page settings untouched",
+            "pass": true
+        },
+        {
+            "name": "hierarchical small-business hub and leaf are drafts",
+            "pass": true
+        },
+        {
+            "name": "ACF template stored with key",
+            "pass": true
+        },
+        {
+            "name": "commercial blocks render headings, links and price verification tokens",
+            "pass": true
+        },
+        {
+            "name": "disclosure precedes first CTA shortcode",
+            "pass": true
+        },
+        {
+            "name": "homepage is separate scaffold and not front-page setting",
+            "pass": true
+        },
+        {
+            "name": "second apply skips and preserves edits",
+            "pass": true
+        },
+        {
+            "name": "published owned page refuses repeat import",
+            "pass": true
+        }
+    ]
+}

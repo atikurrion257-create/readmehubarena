@@ -1,0 +1,561 @@
+{
+  "scope": "Static file checks only: no WordPress, rendering, accessibility, link resolution, schema output, legal or browser testing.",
+  "checks": [
+    {
+      "name": "home metadata",
+      "pass": true
+    },
+    {
+      "name": "home seo lengths",
+      "pass": true
+    },
+    {
+      "name": "home h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "home links",
+      "pass": true
+    },
+    {
+      "name": "home no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "home indexing gate",
+      "pass": true
+    },
+    {
+      "name": "home tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "home schema",
+      "pass": true
+    },
+    {
+      "name": "tools metadata",
+      "pass": true
+    },
+    {
+      "name": "tools seo lengths",
+      "pass": true
+    },
+    {
+      "name": "tools h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "tools links",
+      "pass": true
+    },
+    {
+      "name": "tools no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "tools indexing gate",
+      "pass": true
+    },
+    {
+      "name": "tools tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "tools schema",
+      "pass": true
+    },
+    {
+      "name": "blog metadata",
+      "pass": true
+    },
+    {
+      "name": "blog seo lengths",
+      "pass": true
+    },
+    {
+      "name": "blog h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "blog links",
+      "pass": true
+    },
+    {
+      "name": "blog no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "blog indexing gate",
+      "pass": true
+    },
+    {
+      "name": "blog tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "blog schema",
+      "pass": true
+    },
+    {
+      "name": "comparisons metadata",
+      "pass": true
+    },
+    {
+      "name": "comparisons seo lengths",
+      "pass": true
+    },
+    {
+      "name": "comparisons h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "comparisons links",
+      "pass": true
+    },
+    {
+      "name": "comparisons no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "comparisons indexing gate",
+      "pass": true
+    },
+    {
+      "name": "comparisons tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "comparisons schema",
+      "pass": true
+    },
+    {
+      "name": "deals metadata",
+      "pass": true
+    },
+    {
+      "name": "deals seo lengths",
+      "pass": true
+    },
+    {
+      "name": "deals h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "deals links",
+      "pass": true
+    },
+    {
+      "name": "deals no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "deals indexing gate",
+      "pass": true
+    },
+    {
+      "name": "deals tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "deals schema",
+      "pass": true
+    },
+    {
+      "name": "search metadata",
+      "pass": true
+    },
+    {
+      "name": "search seo lengths",
+      "pass": true
+    },
+    {
+      "name": "search h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "search links",
+      "pass": true
+    },
+    {
+      "name": "search no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "search indexing gate",
+      "pass": true
+    },
+    {
+      "name": "search tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "search schema",
+      "pass": true
+    },
+    {
+      "name": "404 metadata",
+      "pass": true
+    },
+    {
+      "name": "404 seo lengths",
+      "pass": true
+    },
+    {
+      "name": "404 h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "404 links",
+      "pass": true
+    },
+    {
+      "name": "404 no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "404 indexing gate",
+      "pass": true
+    },
+    {
+      "name": "404 tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "saas metadata",
+      "pass": true
+    },
+    {
+      "name": "saas seo lengths",
+      "pass": true
+    },
+    {
+      "name": "saas h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "saas links",
+      "pass": true
+    },
+    {
+      "name": "saas no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "saas indexing gate",
+      "pass": true
+    },
+    {
+      "name": "saas tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "saas schema",
+      "pass": true
+    },
+    {
+      "name": "saas Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "project-management metadata",
+      "pass": true
+    },
+    {
+      "name": "project-management seo lengths",
+      "pass": true
+    },
+    {
+      "name": "project-management h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "project-management links",
+      "pass": true
+    },
+    {
+      "name": "project-management no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "project-management indexing gate",
+      "pass": true
+    },
+    {
+      "name": "project-management tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "project-management schema",
+      "pass": true
+    },
+    {
+      "name": "project-management Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "email-marketing metadata",
+      "pass": true
+    },
+    {
+      "name": "email-marketing seo lengths",
+      "pass": true
+    },
+    {
+      "name": "email-marketing h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "email-marketing links",
+      "pass": true
+    },
+    {
+      "name": "email-marketing no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "email-marketing indexing gate",
+      "pass": true
+    },
+    {
+      "name": "email-marketing tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "email-marketing schema",
+      "pass": true
+    },
+    {
+      "name": "email-marketing Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing metadata",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing seo lengths",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing links",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing indexing gate",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing schema",
+      "pass": true
+    },
+    {
+      "name": "seo-marketing Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "ai-writing metadata",
+      "pass": true
+    },
+    {
+      "name": "ai-writing seo lengths",
+      "pass": true
+    },
+    {
+      "name": "ai-writing h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "ai-writing links",
+      "pass": true
+    },
+    {
+      "name": "ai-writing no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "ai-writing indexing gate",
+      "pass": true
+    },
+    {
+      "name": "ai-writing tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "ai-writing schema",
+      "pass": true
+    },
+    {
+      "name": "ai-writing Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "crm metadata",
+      "pass": true
+    },
+    {
+      "name": "crm seo lengths",
+      "pass": true
+    },
+    {
+      "name": "crm h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "crm links",
+      "pass": true
+    },
+    {
+      "name": "crm no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "crm indexing gate",
+      "pass": true
+    },
+    {
+      "name": "crm tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "crm schema",
+      "pass": true
+    },
+    {
+      "name": "crm Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "hosting metadata",
+      "pass": true
+    },
+    {
+      "name": "hosting seo lengths",
+      "pass": true
+    },
+    {
+      "name": "hosting h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "hosting links",
+      "pass": true
+    },
+    {
+      "name": "hosting no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "hosting indexing gate",
+      "pass": true
+    },
+    {
+      "name": "hosting tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "hosting schema",
+      "pass": true
+    },
+    {
+      "name": "hosting Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress metadata",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress seo lengths",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress links",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress indexing gate",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress schema",
+      "pass": true
+    },
+    {
+      "name": "managed-wordpress Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "small-business metadata",
+      "pass": true
+    },
+    {
+      "name": "small-business seo lengths",
+      "pass": true
+    },
+    {
+      "name": "small-business h1 and heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "small-business links",
+      "pass": true
+    },
+    {
+      "name": "small-business no commercial cta",
+      "pass": true
+    },
+    {
+      "name": "small-business indexing gate",
+      "pass": true
+    },
+    {
+      "name": "small-business tree and dynamic tags",
+      "pass": true
+    },
+    {
+      "name": "small-business schema",
+      "pass": true
+    },
+    {
+      "name": "small-business Q&A and grid",
+      "pass": true
+    },
+    {
+      "name": "registry page count",
+      "pass": true
+    },
+    {
+      "name": "T12 skeleton exists",
+      "pass": true
+    },
+    {
+      "name": "small-business slug",
+      "pass": true
+    }
+  ]
+}
