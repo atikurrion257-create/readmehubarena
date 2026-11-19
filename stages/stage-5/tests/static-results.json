@@ -1,0 +1,671 @@
+{
+  "scope": "Static file checks only. Word counts approximate; no rendering, live staging, claim verification or legal test.",
+  "body_word_counts": {
+    "best-managed-wordpress-hosting": 2504,
+    "kinsta-review": 2211,
+    "wp-engine-review": 2214,
+    "cloudways-review": 2203,
+    "best-wordpress-hosting-for-small-business": 2502,
+    "systeme-io-alternatives": 2102,
+    "clickup-vs-asana": 2208,
+    "semrush-review": 2226,
+    "semrush-vs-ahrefs": 2204,
+    "jasper-review": 2205,
+    "best-ai-writing-tools-for-bloggers": 2513,
+    "hubspot-review": 2237
+  },
+  "checks": [
+    {
+      "name": "best-managed-wordpress-hosting registry/draft",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting SEO",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting evidence",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting CTA map",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting price markers",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting graph",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "best-managed-wordpress-hosting matched WordPress scenario",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review SEO",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review evidence",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review price markers",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review graph",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "kinsta-review matched WordPress scenario",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review SEO",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review evidence",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review price markers",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review graph",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "wp-engine-review matched WordPress scenario",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review SEO",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review evidence",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review price markers",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review graph",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "cloudways-review matched WordPress scenario",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business registry/draft",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business SEO",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business evidence",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business CTA map",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business price markers",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business graph",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "best-wordpress-hosting-for-small-business matched WordPress scenario",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives registry/draft",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives SEO",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives evidence",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives CTA map",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives price markers",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives graph",
+      "pass": true
+    },
+    {
+      "name": "systeme-io-alternatives target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana registry/draft",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana SEO",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana evidence",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana CTA map",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana price markers",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana graph",
+      "pass": true
+    },
+    {
+      "name": "clickup-vs-asana target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "semrush-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "semrush-review SEO",
+      "pass": true
+    },
+    {
+      "name": "semrush-review evidence",
+      "pass": true
+    },
+    {
+      "name": "semrush-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "semrush-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "semrush-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "semrush-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "semrush-review price markers",
+      "pass": true
+    },
+    {
+      "name": "semrush-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "semrush-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "semrush-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "semrush-review graph",
+      "pass": true
+    },
+    {
+      "name": "semrush-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs registry/draft",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs SEO",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs evidence",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs CTA map",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs price markers",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs graph",
+      "pass": true
+    },
+    {
+      "name": "semrush-vs-ahrefs target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "jasper-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "jasper-review SEO",
+      "pass": true
+    },
+    {
+      "name": "jasper-review evidence",
+      "pass": true
+    },
+    {
+      "name": "jasper-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "jasper-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "jasper-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "jasper-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "jasper-review price markers",
+      "pass": true
+    },
+    {
+      "name": "jasper-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "jasper-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "jasper-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "jasper-review graph",
+      "pass": true
+    },
+    {
+      "name": "jasper-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers registry/draft",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers SEO",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers evidence",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers CTA map",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers price markers",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers graph",
+      "pass": true
+    },
+    {
+      "name": "best-ai-writing-tools-for-bloggers target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review registry/draft",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review SEO",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review evidence",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review H1/heading hierarchy",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review buyer FAQ count",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review disclosure precedes CTA",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review CTA map",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review price markers",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review blocker inventory",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review internal-link manifest",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review pricing terms separated",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review graph",
+      "pass": true
+    },
+    {
+      "name": "hubspot-review target minimum word count",
+      "pass": true
+    },
+    {
+      "name": "all 12 registry files",
+      "pass": true
+    },
+    {
+      "name": "no Ahrefs or Hostinger affiliate CTA",
+      "pass": true
+    }
+  ]
+}

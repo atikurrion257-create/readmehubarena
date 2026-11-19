@@ -1,0 +1,21 @@
+{
+    "elementor": "4.3.5",
+    "results": [
+        {
+            "name": "Elementor class initialized",
+            "pass": true
+        },
+        {
+            "name": "Shortcode widget instantiates",
+            "pass": true
+        },
+        {
+            "name": "Default dynamic widget renders dynamically",
+            "pass": true
+        },
+        {
+            "name": "Explicit Active cache overrides filter, requiring manual Inactive",
+            "pass": true
+        }
+    ]
+}

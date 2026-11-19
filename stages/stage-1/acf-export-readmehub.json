@@ -1,0 +1,1423 @@
+[
+  {
+    "key": "group_rmh_tool_registry",
+    "title": "RMH Tool Registry (ACF Free)",
+    "fields": [
+      {
+        "key": "field_rmh_tool_slug",
+        "label": "Brand Slug",
+        "name": "rmh_tool_slug",
+        "type": "text",
+        "instructions": "Canonical brand slug (e.g. systeme-io). Must match the rmh_tool post_name.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_category",
+        "label": "Category",
+        "name": "rmh_category",
+        "type": "text",
+        "instructions": "Display category (e.g. Email Marketing & Funnels).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_program_status",
+        "label": "Program Status",
+        "name": "rmh_program_status",
+        "type": "select",
+        "instructions": "Tracked separately from verification/application/approval.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "active_open": "Active — Open",
+          "active_network": "Active — Network",
+          "active_approval_required": "Active — Approval Required",
+          "deferred_until_traffic": "Deferred Until Traffic",
+          "discontinued": "Discontinued",
+          "closed_to_new": "Closed to New Affiliates",
+          "requires_validation": "Requires Validation"
+        },
+        "default_value": "requires_validation",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_verification_status",
+        "label": "Verification Status",
+        "name": "rmh_verification_status",
+        "type": "select",
+        "instructions": "Live terms verification state.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "verified": "Verified",
+          "verified_closed": "Verified Closed",
+          "REQUIRES VALIDATION": "REQUIRES VALIDATION"
+        },
+        "default_value": "REQUIRES VALIDATION",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_application_status",
+        "label": "Application Status",
+        "name": "rmh_application_status",
+        "type": "select",
+        "instructions": "Whether an affiliate application has been submitted.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "not_applied": "Not Applied",
+          "applied": "Applied",
+          "deferred": "Deferred",
+          "n_a": "N/A"
+        },
+        "default_value": "not_applied",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_approval_status",
+        "label": "Approval Status",
+        "name": "rmh_approval_status",
+        "type": "select",
+        "instructions": "Whether the affiliate account is approved for link output.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "approved": "Approved",
+          "not_approved": "Not Approved",
+          "pending_owner_id": "Pending Owner ID",
+          "n_a": "N/A"
+        },
+        "default_value": "not_approved",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_affiliate_url_template",
+        "label": "Affiliate URL Template",
+        "name": "rmh_affiliate_url_template",
+        "type": "url",
+        "instructions": "Use YOURID placeholder until owner ID is supplied. Systeme.io must NEVER contain www.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": ""
+      },
+      {
+        "key": "field_rmh_commission_summary",
+        "label": "Commission Summary",
+        "name": "rmh_commission_summary",
+        "type": "textarea",
+        "instructions": "Verified commission structure. Do not state figures for REQUIRES VALIDATION programs.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_cookie_days",
+        "label": "Cookie Days",
+        "name": "rmh_cookie_days",
+        "type": "number",
+        "instructions": "Days if explicitly known. Leave blank when unknown or not applicable; see cookie note for non-day terms.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "min": 0,
+        "max": "",
+        "step": ""
+      },
+      {
+        "key": "field_rmh_cookie_note",
+        "label": "Cookie Note",
+        "name": "rmh_cookie_note",
+        "type": "text",
+        "instructions": "Human-readable cookie description.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_minimum_payout",
+        "label": "Minimum Payout",
+        "name": "rmh_minimum_payout",
+        "type": "text",
+        "instructions": "Minimum payout threshold.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_priority",
+        "label": "Priority",
+        "name": "rmh_priority",
+        "type": "select",
+        "instructions": "Affiliate action priority.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "P0": "P0",
+          "P1": "P1",
+          "P2": "P2",
+          "DEFER": "DEFER",
+          "NONE": "NONE",
+          "CONDITIONAL": "CONDITIONAL"
+        },
+        "default_value": "P2",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_wave",
+        "label": "Wave",
+        "name": "rmh_wave",
+        "type": "text",
+        "instructions": "Launch wave (Wave-1, Wave-2, Wave-3 HOLD).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_verified_date",
+        "label": "Verified Date",
+        "name": "rmh_verified_date",
+        "type": "date_picker",
+        "instructions": "Date affiliate terms were last verified live.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_expires_date",
+        "label": "Baseline Expires",
+        "name": "rmh_expires_date",
+        "type": "date_picker",
+        "instructions": "Baseline expiry (2026-12-02 for the 2026-09-03 baseline).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_price_note",
+        "label": "Price Note",
+        "name": "rmh_price_note",
+        "type": "textarea",
+        "instructions": "Current pricing note. Always append (verify live before publish).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_free_tier_note",
+        "label": "Free Tier Note",
+        "name": "rmh_free_tier_note",
+        "type": "textarea",
+        "instructions": "Free plan / trial details.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_pros_list",
+        "label": "Pros List (ACF Free)",
+        "name": "rmh_pros_list",
+        "type": "textarea",
+        "instructions": "One pro per line. ACF Free fallback for Repeater.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 5,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_cons_list",
+        "label": "Cons List (ACF Free)",
+        "name": "rmh_cons_list",
+        "type": "textarea",
+        "instructions": "One con per line. ACF Free fallback for Repeater.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 5,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_best_for",
+        "label": "Best For",
+        "name": "rmh_best_for",
+        "type": "textarea",
+        "instructions": "Who this tool is best for.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_not_best_for",
+        "label": "Not Best For",
+        "name": "rmh_not_best_for",
+        "type": "textarea",
+        "instructions": "Who should skip this tool and why.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_verdict",
+        "label": "Verdict",
+        "name": "rmh_verdict",
+        "type": "textarea",
+        "instructions": "One-sentence verdict. Mode A must note pending hands-on testing.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_review_url",
+        "label": "Editorial Review URL",
+        "name": "rmh_review_url",
+        "type": "url",
+        "instructions": "Published T3 review URL for directory card links.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": ""
+      },
+      {
+        "key": "field_rmh_intro_price",
+        "label": "Introductory price",
+        "name": "rmh_intro_price",
+        "type": "text",
+        "instructions": "State currency, billing interval and conditions exactly as verified on the vendor page.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      },
+      {
+        "key": "field_rmh_renewal_price",
+        "label": "Renewal price",
+        "name": "rmh_renewal_price",
+        "type": "text",
+        "instructions": "State currency, billing interval and renewal conditions exactly as verified.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      },
+      {
+        "key": "field_rmh_pricing_verified_date",
+        "label": "Pricing verification date",
+        "name": "rmh_pricing_verified_date",
+        "type": "date_picker",
+        "instructions": "Date price data were checked against the vendor.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_pricing_source_url",
+        "label": "Pricing source URL",
+        "name": "rmh_pricing_source_url",
+        "type": "url",
+        "instructions": "Official vendor page, HTTPS, no tracking, referral query or fragment. Verify manually.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      },
+      {
+        "key": "field_rmh_pricing_source_confirmed",
+        "label": "Source confirmation",
+        "name": "rmh_pricing_source_confirmed",
+        "type": "true_false",
+        "instructions": "Check only after verifying that this is the non-affiliate official source of the prices.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": 0,
+        "ui": 1
+      },
+      {
+        "key": "field_rmh_free_plan_available",
+        "label": "Free plan available",
+        "name": "rmh_free_plan_available",
+        "type": "select",
+        "instructions": "Select only after verification; blank means unknown.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "choices": {
+          "yes": "Yes",
+          "no": "No"
+        },
+        "allow_null": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_geo_notes",
+        "label": "Geographic notes",
+        "name": "rmh_geo_notes",
+        "type": "textarea",
+        "instructions": "Source and verify before publication.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_key_strength",
+        "label": "Key strength",
+        "name": "rmh_key_strength",
+        "type": "textarea",
+        "instructions": "Use documented, sourced facts only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_primary_limitation",
+        "label": "Primary limitation",
+        "name": "rmh_primary_limitation",
+        "type": "textarea",
+        "instructions": "Use documented, sourced facts only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_no_www_enforced",
+        "label": "No www enforcement",
+        "name": "rmh_no_www_enforced",
+        "type": "true_false",
+        "instructions": "For Systeme.io; hostname normalization is enforced independently in code.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": 0,
+        "ui": 1
+      },
+      {
+        "key": "field_rmh_non_affiliate_url",
+        "label": "Official non-affiliate URL",
+        "name": "rmh_non_affiliate_url",
+        "type": "url",
+        "instructions": "Verified official vendor page, HTTPS, with no referral/tracking query or fragment.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      },
+      {
+        "key": "field_rmh_non_affiliate_url_confirmed",
+        "label": "Official URL confirmation",
+        "name": "rmh_non_affiliate_url_confirmed",
+        "type": "true_false",
+        "instructions": "Check only after verifying this is an official, non-affiliate destination.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": 0,
+        "ui": 1
+      },
+      {
+        "key": "field_rmh_non_affiliate_verified_date",
+        "label": "Official URL verification date",
+        "name": "rmh_non_affiliate_verified_date",
+        "type": "date_picker",
+        "instructions": "Date the non-affiliate official destination was manually verified. Recheck within 90 days.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "rmh_tool",
+          "order_no": 0,
+          "group_no": 0
+        }
+      ]
+    ],
+    "active": 1,
+    "description": "Internal rmh_tool registry. ACF Free only: no Repeater, Flexible Content, Gallery, or Options Pages."
+  },
+  {
+    "key": "group_rmh_page_editorial",
+    "title": "RMH Page Editorial (ACF Free)",
+    "fields": [
+      {
+        "key": "field_rmh_page_template_type",
+        "label": "Page Template Type",
+        "name": "rmh_page_template_type",
+        "type": "select",
+        "instructions": "T1–T20 blueprint code for indexing gates and QA.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "T1": "T1 — Homepage",
+          "T2": "T2 — Tools Directory",
+          "T3": "T3 — Single Tool Review",
+          "T4": "T4 — Blog Archive",
+          "T5": "T5 — Single Informational Article",
+          "T6": "T6 — Silo / Cluster Hub",
+          "T7": "T7 — Comparisons Archive",
+          "T8": "T8 — Single Comparison",
+          "T9": "T9 — Best-Of / Persona Roundup",
+          "T10": "T10 — Alternatives",
+          "T11": "T11 — Deals Archive",
+          "T12": "T12 — Single Deal",
+          "T13": "T13 — Search",
+          "T14": "T14 — About",
+          "T15": "T15 — Editorial Methodology",
+          "T16": "T16 — Contact & Report an Error",
+          "T17": "T17 — Affiliate Disclosure",
+          "T18": "T18 — Privacy Policy",
+          "T19": "T19 — Terms of Service",
+          "T20": "T20 — Custom 404"
+        },
+        "default_value": "",
+        "allow_null": 1,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_evidence_mode",
+        "label": "Evidence Mode",
+        "name": "rmh_evidence_mode",
+        "type": "select",
+        "instructions": "Mode A = research draft (default). Mode B requires dated Stage-1 test logs.",
+        "required": 1,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "mode_a_research": "Mode A — Research-Based Evaluation",
+          "mode_b_tested": "Mode B — Hands-On Tested"
+        },
+        "default_value": "mode_a_research",
+        "allow_null": 0,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_plan_tested",
+        "label": "Plan Tested",
+        "name": "rmh_plan_tested",
+        "type": "text",
+        "instructions": "Exact plan tested (Mode B only; leave blank in Mode A).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_test_date",
+        "label": "Test Date",
+        "name": "rmh_test_date",
+        "type": "date_picker",
+        "instructions": "Hands-on test date (Mode B only).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_workflow_evaluated",
+        "label": "Workflow Evaluated",
+        "name": "rmh_workflow_evaluated",
+        "type": "textarea",
+        "instructions": "Workflows evaluated during testing (Mode B) or documented capabilities (Mode A).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_observed_limits",
+        "label": "Observed / Documented Limits",
+        "name": "rmh_observed_limits",
+        "type": "textarea",
+        "instructions": "Real, specific limitations.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_last_pricing_check",
+        "label": "Last Pricing Check",
+        "name": "rmh_last_pricing_check",
+        "type": "date_picker",
+        "instructions": "Date pricing was last verified on the vendor site.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_disclosure_override",
+        "label": "Disclosure Override",
+        "name": "rmh_disclosure_override",
+        "type": "textarea",
+        "instructions": "Per-page FTC disclosure text. Leave blank to use the global default.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_primary_persona",
+        "label": "Primary Persona",
+        "name": "rmh_primary_persona",
+        "type": "text",
+        "instructions": "Who this page is written for.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_skip_if",
+        "label": "Skip If",
+        "name": "rmh_skip_if",
+        "type": "textarea",
+        "instructions": "Who should skip this product and why.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_pros_list_page",
+        "label": "Page Pros List (ACF Free)",
+        "name": "rmh_pros_list",
+        "type": "textarea",
+        "instructions": "One pro per line (page-level override).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 5,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_cons_list_page",
+        "label": "Page Cons List (ACF Free)",
+        "name": "rmh_cons_list",
+        "type": "textarea",
+        "instructions": "One con per line (page-level override).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 5,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_verdict_summary",
+        "label": "Verdict Summary",
+        "name": "rmh_verdict_summary",
+        "type": "textarea",
+        "instructions": "Quick verdict shown in [rmh_verdict_box].",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_rating_score",
+        "label": "Rating Score (Mode B Only)",
+        "name": "rmh_rating_score",
+        "type": "number",
+        "instructions": "Leave blank unless Mode B hands-on testing is verified. Never fabricate ratings.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "min": 0,
+        "max": 5,
+        "step": "0.1"
+      },
+      {
+        "key": "field_rmh_faq_items",
+        "label": "FAQ Items (ACF Free)",
+        "name": "rmh_faq_items",
+        "type": "textarea",
+        "instructions": "One Q&A per pair. Format: Q: question text / A: answer text (one per line).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "Q: ...\nA: ...",
+        "maxlength": "",
+        "rows": 10,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_author_name",
+        "label": "Author Name",
+        "name": "rmh_author_name",
+        "type": "text",
+        "instructions": "Real human author name only. Never invent personas.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_author_bio",
+        "label": "Author Bio",
+        "name": "rmh_author_bio",
+        "type": "textarea",
+        "instructions": "Short verifiable bio.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_author_credentials",
+        "label": "Author Credentials",
+        "name": "rmh_author_credentials",
+        "type": "textarea",
+        "instructions": "Verifiable credentials only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "maxlength": "",
+        "rows": 2,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_author_role",
+        "label": "Author Role",
+        "name": "rmh_author_role",
+        "type": "text",
+        "instructions": "Role / title.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_reviewer_name",
+        "label": "Reviewer Name",
+        "name": "rmh_reviewer_name",
+        "type": "text",
+        "instructions": "Second reviewer (optional).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_silo_slug",
+        "label": "Silo Slug",
+        "name": "rmh_silo_slug",
+        "type": "text",
+        "instructions": "saas or hosting (used by [rmh_dynamic_cluster_grid]).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_cluster_slug",
+        "label": "Cluster Slug",
+        "name": "rmh_cluster_slug",
+        "type": "text",
+        "instructions": "Cluster slug (e.g. project-management).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": "",
+        "placeholder": "",
+        "prepend": "",
+        "append": "",
+        "maxlength": ""
+      },
+      {
+        "key": "field_rmh_deal_status",
+        "label": "Deal Status",
+        "name": "rmh_deal_status",
+        "type": "select",
+        "instructions": "T12 deal lifecycle. Expired deals are never shown as active.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "choices": {
+          "active": "Active",
+          "upcoming": "Upcoming",
+          "expired": "Expired"
+        },
+        "default_value": "",
+        "allow_null": 1,
+        "multiple": 0,
+        "ui": 1,
+        "return_format": "value"
+      },
+      {
+        "key": "field_rmh_deal_last_verified",
+        "label": "Deal Last Verified",
+        "name": "rmh_deal_last_verified",
+        "type": "date_picker",
+        "instructions": "Date the offer was verified on the vendor site.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_deal_expires",
+        "label": "Deal Expires",
+        "name": "rmh_deal_expires",
+        "type": "date_picker",
+        "instructions": "Offer expiry date (leave blank if no expiry).",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_deal_starts",
+        "label": "Deal starts",
+        "name": "rmh_deal_starts",
+        "type": "date_picker",
+        "instructions": "Optional start date; future start is upcoming.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "display_format": "Y-m-d",
+        "return_format": "Y-m-d",
+        "first_day": 1
+      },
+      {
+        "key": "field_rmh_deal_source_url",
+        "label": "Deal source URL",
+        "name": "rmh_deal_source_url",
+        "type": "url",
+        "instructions": "Official non-affiliate vendor URL, no tracking query or fragment.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        }
+      },
+      {
+        "key": "field_rmh_deal_source_confirmed",
+        "label": "Deal source confirmed",
+        "name": "rmh_deal_source_confirmed",
+        "type": "true_false",
+        "instructions": "Check only after verifying the offer and source manually.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": 0,
+        "ui": 1
+      },
+      {
+        "key": "field_rmh_deal_terms_preview",
+        "label": "Deal terms preview",
+        "name": "rmh_deal_terms_preview",
+        "type": "textarea",
+        "instructions": "Verified offer conditions; do not include affiliate links.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_reviewer_bio",
+        "label": "Reviewer bio",
+        "name": "rmh_reviewer_bio",
+        "type": "textarea",
+        "instructions": "Verifiable bio only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_reviewer_credentials",
+        "label": "Reviewer credentials",
+        "name": "rmh_reviewer_credentials",
+        "type": "textarea",
+        "instructions": "Verifiable credentials only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_rmh_reviewer_role",
+        "label": "Reviewer role",
+        "name": "rmh_reviewer_role",
+        "type": "text",
+        "instructions": "Verified role only.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        }
+      },
+      {
+        "key": "field_rmh_editorial_policy_url",
+        "label": "Editorial policy URL",
+        "name": "rmh_editorial_policy_url",
+        "type": "url",
+        "instructions": "Internal policy link.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        }
+      },
+      {
+        "key": "field_rmh_test_log_attachment",
+        "label": "Test log attachment",
+        "name": "rmh_test_log_attachment",
+        "type": "file",
+        "instructions": "Attach the dated log documenting plan, workflow, steps and observations.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "id",
+        "library": "all"
+      },
+      {
+        "key": "field_rmh_test_screenshot_attachment",
+        "label": "Test screenshot attachment",
+        "name": "rmh_test_screenshot_attachment",
+        "type": "image",
+        "instructions": "Attach a real screenshot from the documented test.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "return_format": "id",
+        "preview_size": "thumbnail",
+        "library": "all"
+      },
+      {
+        "key": "field_rmh_evidence_verified",
+        "label": "Evidence reviewed",
+        "name": "rmh_evidence_verified",
+        "type": "true_false",
+        "instructions": "Only confirm after a human has checked the dated log and screenshot against all claims.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": 0,
+        "ui": 1
+      },
+      {
+        "key": "field_rmh_review_item_name_page",
+        "label": "Reviewed product name",
+        "name": "rmh_review_item_name",
+        "type": "text",
+        "instructions": "Exact product name displayed in the verified evidence stamp.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      },
+      {
+        "key": "field_rmh_tool_slug_page",
+        "label": "Primary tool slug",
+        "name": "rmh_tool_slug",
+        "type": "text",
+        "instructions": "Registry slug used for the primary verdict CTA, if applicable.",
+        "required": 0,
+        "conditional_logic": 0,
+        "wrapper": {
+          "width": "",
+          "class": "",
+          "id": ""
+        },
+        "default_value": ""
+      }
+    ],
+    "location": [
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "page",
+          "order_no": 0,
+          "group_no": 0
+        }
+      ],
+      [
+        {
+          "param": "post_type",
+          "operator": "==",
+          "value": "post",
+          "order_no": 0,
+          "group_no": 1
+        }
+      ]
+    ],
+    "active": 1,
+    "description": "Page/post editorial fields. ACF Free only: no Repeater, Flexible Content, Gallery, or Options Pages."
+  }
+]

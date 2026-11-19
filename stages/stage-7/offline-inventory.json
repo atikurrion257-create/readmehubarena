@@ -1,0 +1,886 @@
+{
+  "scope": "Stage 6 generated Gutenberg content; lexical inventory only, not rendered site QA",
+  "pages": [
+    {
+      "url": "/about/",
+      "draft_path": "/about/",
+      "source": "content/stage-2/pages/about.md",
+      "template": "T14",
+      "stage": 2,
+      "title_chars": 37,
+      "meta_chars": 136,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 1,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/affiliate-disclosure/",
+      "draft_path": "/affiliate-disclosure/",
+      "source": "content/stage-2/pages/affiliate-disclosure.md",
+      "template": "T17",
+      "stage": 2,
+      "title_chars": 32,
+      "meta_chars": 134,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 2,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/blog/",
+      "draft_path": "/blog/",
+      "source": "content/stage-3/pages/blog.md",
+      "template": "T4",
+      "stage": 3,
+      "title_chars": 31,
+      "meta_chars": 107,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/comparisons/",
+      "draft_path": "/comparisons/",
+      "source": "content/stage-3/pages/comparisons.md",
+      "template": "T7",
+      "stage": 3,
+      "title_chars": 23,
+      "meta_chars": 104,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/contact/",
+      "draft_path": "/contact/",
+      "source": "content/stage-2/pages/contact.md",
+      "template": "T16",
+      "stage": 2,
+      "title_chars": 37,
+      "meta_chars": 135,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 1,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/deals/",
+      "draft_path": "/deals/",
+      "source": "content/stage-3/pages/deals.md",
+      "template": "T11",
+      "stage": 3,
+      "title_chars": 26,
+      "meta_chars": 101,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_deals_list"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/editorial-methodology/",
+      "draft_path": "/editorial-methodology/",
+      "source": "content/stage-2/pages/editorial-methodology.md",
+      "template": "T15",
+      "stage": 2,
+      "title_chars": 33,
+      "meta_chars": 138,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 1,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/",
+      "draft_path": "/hosting/",
+      "source": "content/stage-3/pages/hosting.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 30,
+      "meta_chars": 109,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/privacy-policy/",
+      "draft_path": "/privacy-policy/",
+      "source": "content/stage-2/pages/privacy-policy.md",
+      "template": "T18",
+      "stage": 2,
+      "title_chars": 26,
+      "meta_chars": 134,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 27,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/",
+      "draft_path": "/readmehub-home-draft/",
+      "source": "content/stage-3/pages/home.md",
+      "template": "T1",
+      "stage": 3,
+      "title_chars": 39,
+      "meta_chars": 115,
+      "shortcodes": [
+        "rmh_dynamic_cluster_grid",
+        "rmh_newsletter"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/",
+      "draft_path": "/saas/",
+      "source": "content/stage-3/pages/saas.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 29,
+      "meta_chars": 108,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/search/",
+      "draft_path": "/search/",
+      "source": "content/stage-3/pages/search.md",
+      "template": "T13",
+      "stage": 3,
+      "title_chars": 18,
+      "meta_chars": 81,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/terms-of-service/",
+      "draft_path": "/terms-of-service/",
+      "source": "content/stage-2/pages/terms-of-service.md",
+      "template": "T19",
+      "stage": 2,
+      "title_chars": 28,
+      "meta_chars": 130,
+      "shortcodes": [
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 14,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/tools/",
+      "draft_path": "/tools/",
+      "source": "content/stage-3/pages/tools.md",
+      "template": "T2",
+      "stage": 3,
+      "title_chars": 27,
+      "meta_chars": 100,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_tool_directory"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/managed-wordpress/",
+      "draft_path": "/hosting/managed-wordpress/",
+      "source": "content/stage-3/pages/managed-wordpress.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 37,
+      "meta_chars": 116,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/wordpress/ (structural parent)",
+      "draft_path": "/hosting/wordpress/",
+      "source": "assembly/intermediate-parent",
+      "template": "structural-parent",
+      "stage": 6,
+      "title_chars": 0,
+      "meta_chars": 0,
+      "shortcodes": [],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/ai-writing/",
+      "draft_path": "/saas/ai-writing/",
+      "source": "content/stage-3/pages/ai-writing.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 28,
+      "meta_chars": 107,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/crm/",
+      "draft_path": "/saas/crm/",
+      "source": "content/stage-3/pages/crm.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 24,
+      "meta_chars": 103,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/email-marketing/",
+      "draft_path": "/saas/email-marketing/",
+      "source": "content/stage-3/pages/email-marketing.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 36,
+      "meta_chars": 115,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/",
+      "draft_path": "/saas/project-management/",
+      "source": "content/stage-3/pages/project-management.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 39,
+      "meta_chars": 118,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/seo-marketing/",
+      "draft_path": "/saas/seo-marketing/",
+      "source": "content/stage-3/pages/seo-marketing.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 35,
+      "meta_chars": 114,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/managed-wordpress/best-managed-wordpress-hosting/",
+      "draft_path": "/hosting/managed-wordpress/best-managed-wordpress-hosting/",
+      "source": "content/stage-5/pages/best-managed-wordpress-hosting.md",
+      "template": "T9",
+      "stage": 5,
+      "title_chars": 42,
+      "meta_chars": 110,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 3,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Cloudways annual introduction and term | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways annual renewal | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways monthly introduction and term | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways monthly renewal | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Kinsta annual introduction and term | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta annual renewal | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta monthly introduction and term | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta monthly renewal | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: WP Engine annual introduction and term | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine annual renewal | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine monthly introduction and term | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine monthly renewal | https://wpengine.com/plans/}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/managed-wordpress/cloudways-review/",
+      "draft_path": "/hosting/managed-wordpress/cloudways-review/",
+      "source": "content/stage-5/pages/cloudways-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 47,
+      "meta_chars": 92,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Cloudways annual introduction and term | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways annual renewal | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways monthly introduction and term | https://www.cloudways.com/en/pricing.php}}",
+        "{{VERIFY-PRICE: Cloudways monthly renewal | https://www.cloudways.com/en/pricing.php}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/managed-wordpress/kinsta-review/",
+      "draft_path": "/hosting/managed-wordpress/kinsta-review/",
+      "source": "content/stage-5/pages/kinsta-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 52,
+      "meta_chars": 89,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Kinsta annual introduction and term | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta annual renewal | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta monthly introduction and term | https://kinsta.com/pricing/}}",
+        "{{VERIFY-PRICE: Kinsta monthly renewal | https://kinsta.com/pricing/}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/managed-wordpress/wp-engine-review/",
+      "draft_path": "/hosting/managed-wordpress/wp-engine-review/",
+      "source": "content/stage-5/pages/wp-engine-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 55,
+      "meta_chars": 92,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: WP Engine annual introduction and term | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine annual renewal | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine monthly introduction and term | https://wpengine.com/plans/}}",
+        "{{VERIFY-PRICE: WP Engine monthly renewal | https://wpengine.com/plans/}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/wordpress/small-business/",
+      "draft_path": "/hosting/wordpress/small-business/",
+      "source": "content/stage-3/pages/small-business.md",
+      "template": "T6",
+      "stage": 3,
+      "title_chars": 50,
+      "meta_chars": 129,
+      "shortcodes": [
+        "rmh_breadcrumbs",
+        "rmh_dynamic_cluster_grid"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/ai-writing/best-ai-writing-tools-for-bloggers/",
+      "draft_path": "/saas/ai-writing/best-ai-writing-tools-for-bloggers/",
+      "source": "content/stage-5/pages/best-ai-writing-tools-for-bloggers.md",
+      "template": "T9",
+      "stage": 5,
+      "title_chars": 46,
+      "meta_chars": 93,
+      "shortcodes": [
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: ChatGPT annual introduction and term | https://chatgpt.com/pricing/}}",
+        "{{VERIFY-PRICE: ChatGPT annual renewal | https://chatgpt.com/pricing/}}",
+        "{{VERIFY-PRICE: ChatGPT monthly introduction and term | https://chatgpt.com/pricing/}}",
+        "{{VERIFY-PRICE: ChatGPT monthly renewal | https://chatgpt.com/pricing/}}",
+        "{{VERIFY-PRICE: Grammarly annual introduction and term | https://www.grammarly.com/plans}}",
+        "{{VERIFY-PRICE: Grammarly annual renewal | https://www.grammarly.com/plans}}",
+        "{{VERIFY-PRICE: Grammarly monthly introduction and term | https://www.grammarly.com/plans}}",
+        "{{VERIFY-PRICE: Grammarly monthly renewal | https://www.grammarly.com/plans}}",
+        "{{VERIFY-PRICE: Jasper annual introduction and term | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper annual renewal | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper monthly introduction and term | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper monthly renewal | https://www.jasper.ai/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/ai-writing/jasper-review/",
+      "draft_path": "/saas/ai-writing/jasper-review/",
+      "source": "content/stage-5/pages/jasper-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 57,
+      "meta_chars": 89,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Jasper annual introduction and term | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper annual renewal | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper monthly introduction and term | https://www.jasper.ai/pricing}}",
+        "{{VERIFY-PRICE: Jasper monthly renewal | https://www.jasper.ai/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/crm/hubspot-review/",
+      "draft_path": "/saas/crm/hubspot-review/",
+      "source": "content/stage-5/pages/hubspot-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 54,
+      "meta_chars": 90,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: HubSpot annual introduction and term | https://www.hubspot.com/pricing/marketing}}",
+        "{{VERIFY-PRICE: HubSpot annual renewal | https://www.hubspot.com/pricing/marketing}}",
+        "{{VERIFY-PRICE: HubSpot monthly introduction and term | https://www.hubspot.com/pricing/marketing}}",
+        "{{VERIFY-PRICE: HubSpot monthly renewal | https://www.hubspot.com/pricing/marketing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/email-marketing/systeme-io-alternatives/",
+      "draft_path": "/saas/email-marketing/systeme-io-alternatives/",
+      "source": "content/stage-5/pages/systeme-io-alternatives.md",
+      "template": "T10",
+      "stage": 5,
+      "title_chars": 35,
+      "meta_chars": 93,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 1,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Mailchimp annual introduction and term | https://mailchimp.com/pricing/marketing/}}",
+        "{{VERIFY-PRICE: Mailchimp annual renewal | https://mailchimp.com/pricing/marketing/}}",
+        "{{VERIFY-PRICE: Mailchimp monthly introduction and term | https://mailchimp.com/pricing/marketing/}}",
+        "{{VERIFY-PRICE: Mailchimp monthly renewal | https://mailchimp.com/pricing/marketing/}}",
+        "{{VERIFY-PRICE: MailerLite annual introduction and term | https://www.mailerlite.com/pricing}}",
+        "{{VERIFY-PRICE: MailerLite annual renewal | https://www.mailerlite.com/pricing}}",
+        "{{VERIFY-PRICE: MailerLite monthly introduction and term | https://www.mailerlite.com/pricing}}",
+        "{{VERIFY-PRICE: MailerLite monthly renewal | https://www.mailerlite.com/pricing}}",
+        "{{VERIFY-PRICE: Systeme.io annual introduction and term | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Systeme.io annual renewal | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Systeme.io monthly introduction and term | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Systeme.io monthly renewal | https://systeme.io/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/email-marketing/systeme-io-review/",
+      "draft_path": "/saas/email-marketing/systeme-io-review/",
+      "source": "content/stage-4/pages/systeme-io-review.md",
+      "template": "T3",
+      "stage": 4,
+      "title_chars": 48,
+      "meta_chars": 124,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Startup annual intro and billing terms | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup annual renewal | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup monthly intro and billing terms | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup monthly renewal | https://systeme.io/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/best-for-freelancers/",
+      "draft_path": "/saas/project-management/best-for-freelancers/",
+      "source": "content/stage-4/pages/best-for-freelancers.md",
+      "template": "T9",
+      "stage": 4,
+      "title_chars": 48,
+      "meta_chars": 111,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 3,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Core annual intro | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core annual renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly intro | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Plus annual intro | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus annual renewal | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus monthly intro | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus monthly renewal | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Standard annual intro | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard annual renewal | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard monthly intro | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard monthly renewal | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Starter annual intro | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter annual renewal | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter monthly intro | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter monthly renewal | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Startup annual intro | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup annual renewal | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup monthly intro | https://systeme.io/pricing}}",
+        "{{VERIFY-PRICE: Startup monthly renewal | https://systeme.io/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/clickup-alternatives/",
+      "draft_path": "/saas/project-management/clickup-alternatives/",
+      "source": "content/stage-4/pages/clickup-alternatives.md",
+      "template": "T10",
+      "stage": 4,
+      "title_chars": 42,
+      "meta_chars": 116,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 1,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Core annual intro | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core annual renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly intro | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Plus annual intro | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus annual renewal | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus monthly intro | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Plus monthly renewal | https://www.notion.com/pricing}}",
+        "{{VERIFY-PRICE: Standard annual intro | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard annual renewal | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard monthly intro | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Standard monthly renewal | https://trello.com/pricing}}",
+        "{{VERIFY-PRICE: Starter annual intro | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter annual renewal | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter monthly intro | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Starter monthly renewal | https://asana.com/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/clickup-review/",
+      "draft_path": "/saas/project-management/clickup-review/",
+      "source": "content/stage-4/pages/clickup-review.md",
+      "template": "T3",
+      "stage": 4,
+      "title_chars": 46,
+      "meta_chars": 131,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Core annual per-user intro and minimum seats | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core annual per-user renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly intro and minimum seats | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: Core monthly renewal | https://clickup.com/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/clickup-vs-asana/",
+      "draft_path": "/saas/project-management/clickup-vs-asana/",
+      "source": "content/stage-5/pages/clickup-vs-asana.md",
+      "template": "T8",
+      "stage": 5,
+      "title_chars": 55,
+      "meta_chars": 87,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Asana annual introduction and term | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Asana annual renewal | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Asana monthly introduction and term | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: Asana monthly renewal | https://asana.com/pricing}}",
+        "{{VERIFY-PRICE: ClickUp annual introduction and term | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: ClickUp annual renewal | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: ClickUp monthly introduction and term | https://clickup.com/pricing}}",
+        "{{VERIFY-PRICE: ClickUp monthly renewal | https://clickup.com/pricing}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/project-management/how-to-choose-project-management-software/",
+      "draft_path": "/saas/project-management/how-to-choose-project-management-software/",
+      "source": "content/stage-4/pages/how-to-choose-project-management-software.md",
+      "template": "T5",
+      "stage": 4,
+      "title_chars": 41,
+      "meta_chars": 107,
+      "shortcodes": [
+        "rmh_author_strip",
+        "rmh_breadcrumbs"
+      ],
+      "cta_count": 0,
+      "disclosure_before_first_cta": null,
+      "verify_tokens": [],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/seo-marketing/semrush-review/",
+      "draft_path": "/saas/seo-marketing/semrush-review/",
+      "source": "content/stage-5/pages/semrush-review.md",
+      "template": "T3",
+      "stage": 5,
+      "title_chars": 54,
+      "meta_chars": 90,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Semrush annual introduction and term | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush annual renewal | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush monthly introduction and term | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush monthly renewal | https://www.semrush.com/pricing/seo-ai-search/}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/saas/seo-marketing/semrush-vs-ahrefs/",
+      "draft_path": "/saas/seo-marketing/semrush-vs-ahrefs/",
+      "source": "content/stage-5/pages/semrush-vs-ahrefs.md",
+      "template": "T8",
+      "stage": 5,
+      "title_chars": 51,
+      "meta_chars": 88,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 2,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Ahrefs annual introduction and term | https://ahrefs.com/pricing}}",
+        "{{VERIFY-PRICE: Ahrefs annual renewal | https://ahrefs.com/pricing}}",
+        "{{VERIFY-PRICE: Ahrefs monthly introduction and term | https://ahrefs.com/pricing}}",
+        "{{VERIFY-PRICE: Ahrefs monthly renewal | https://ahrefs.com/pricing}}",
+        "{{VERIFY-PRICE: Semrush annual introduction and term | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush annual renewal | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush monthly introduction and term | https://www.semrush.com/pricing/seo-ai-search/}}",
+        "{{VERIFY-PRICE: Semrush monthly renewal | https://www.semrush.com/pricing/seo-ai-search/}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    },
+    {
+      "url": "/hosting/wordpress/small-business/best-wordpress-hosting-for-small-business/",
+      "draft_path": "/hosting/wordpress/small-business/best-wordpress-hosting-for-small-business/",
+      "source": "content/stage-5/pages/best-wordpress-hosting-for-small-business.md",
+      "template": "T9",
+      "stage": 5,
+      "title_chars": 50,
+      "meta_chars": 110,
+      "shortcodes": [
+        "rmh_affiliate_cta",
+        "rmh_author_strip",
+        "rmh_breadcrumbs",
+        "rmh_disclosure",
+        "rmh_evidence_stamp"
+      ],
+      "cta_count": 1,
+      "disclosure_before_first_cta": true,
+      "verify_tokens": [
+        "{{VERIFY-PRICE: Hostinger annual introduction and term | https://www.hostinger.com/wordpress-hosting}}",
+        "{{VERIFY-PRICE: Hostinger annual renewal | https://www.hostinger.com/wordpress-hosting}}",
+        "{{VERIFY-PRICE: Hostinger monthly introduction and term | https://www.hostinger.com/wordpress-hosting}}",
+        "{{VERIFY-PRICE: Hostinger monthly renewal | https://www.hostinger.com/wordpress-hosting}}",
+        "{{VERIFY-PRICE: SiteGround annual introduction and term | https://www.siteground.com/wordpress-hosting.htm}}",
+        "{{VERIFY-PRICE: SiteGround annual renewal | https://www.siteground.com/wordpress-hosting.htm}}",
+        "{{VERIFY-PRICE: SiteGround monthly introduction and term | https://www.siteground.com/wordpress-hosting.htm}}",
+        "{{VERIFY-PRICE: SiteGround monthly renewal | https://www.siteground.com/wordpress-hosting.htm}}"
+      ],
+      "owner_confirm_count": 0,
+      "release": "BLOCK PUBLISH"
+    }
+  ]
+}

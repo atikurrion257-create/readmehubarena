@@ -1,0 +1,369 @@
+{
+  "scope": "Static file validation only; not a legal, live WordPress, link-resolution or browser test.",
+  "results": [
+    {
+      "name": "about.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "about.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "about.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "about.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "about.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "about.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "about.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "contact.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "contact.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "contact.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "contact.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "contact.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "contact.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "contact.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: legal draft and owner markers",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: frontmatter and URL",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: title and meta limits",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: canonical",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: H1 and headings",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: single graph matches visible title",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: no commercial CTA",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: draft gate",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: legal draft and owner markers",
+      "pass": true
+    },
+    {
+      "name": "01_global_chrome_spec.md: blocker enumerated [OWNER TO CONFIRM: copyright owner and year]",
+      "pass": true
+    },
+    {
+      "name": "about.md: blocker enumerated [OWNER TO CONFIRM: legal operator, real author and reviewer names, roles, biographies, credentials and any relevant affiliations. Add only verified information before publication.]",
+      "pass": true
+    },
+    {
+      "name": "editorial-methodology.md: blocker enumerated [OWNER TO CONFIRM: accountable editor, record storage, correction ownership, update-date rules and a working contact route before publication.]",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: blocker enumerated [OWNER TO CONFIRM: legal operator, applicable disclosure requirements, actual program relationships and operational review process before publication.]",
+      "pass": true
+    },
+    {
+      "name": "affiliate-disclosure.md: blocker enumerated [OWNER TO CONFIRM: these editorial separation controls are in place and the published statement accurately reflects actual practice.]",
+      "pass": true
+    },
+    {
+      "name": "contact.md: blocker enumerated [OWNER TO CONFIRM: a working contact email or form endpoint and the person responsible for receiving messages.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: working privacy request contact or form]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: working cookie-preferences link, if applicable]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: legal basis for each processing activity, the legitimate interests relied on and any balancing assessment.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual processing locations, transfers, recipients, transfer mechanisms and safeguards where required.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: full legal entity or individual name, trading name, jurisdiction and postal address]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: identity of controller, any representative and whether another entity shares responsibility.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: retention period and provider-controlled records]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: applicable authority or representative, lawful bases, request workflow and any automated decision-making.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual purposes and which information is used for each purpose.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: newsletter provider, form fields, consent record, unsubscribe mechanism and whether a newsletter is actually enabled.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual security practices and incident-response process.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: whether this event is enabled, the analytics provider, the data transmitted and the consent controls used.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: retention period, withdrawal and deletion process]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: retention periods and configuration]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual server logs, analytics products, settings, identifiers, event fields, IP handling and whether analytics is enabled.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: complete cookie and similar-technology inventory, names, providers, purpose, duration, first/third-party status, actual banner or preference mechanism, and regional rules.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: applicability, categories collected/disclosed, whether sale or sharing occurs, opt-out method, authorized-agent process and required notices.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: applicability, notice and consent practices, grievance contact and available rights.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual sharing practices and any additional recipients.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual hosting, security, form, email, analytics and affiliate providers; their roles; categories shared; contract terms; and links to applicable notices.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: actual review date]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: retention period and deletion process]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: active affiliate networks, information received, purposes and retention.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: how material changes will be communicated and how the effective and review dates are maintained.]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: effective date]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: working privacy email or other contact route]",
+      "pass": true
+    },
+    {
+      "name": "privacy-policy.md: blocker enumerated [OWNER TO CONFIRM: whether the site is directed to children, applicable age thresholds and the actual procedure for handling children's information.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM WITH COUNSEL: governing law, jurisdiction or other dispute process, and any required consumer-law qualifications.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: working contact route]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: any further rules about automated access, scraping, rate limits or API use. Do not imply an API or account feature exists unless it is actually offered.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: full legal entity or individual name, trading name and postal address]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: notice method for material changes and how the effective date will be updated.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM WITH COUNSEL: appropriate limitation of liability, covered losses, applicable exclusions and any cap]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: working permissions contact]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM WITH COUNSEL: the permitted scope and wording of warranty disclaimers in each applicable jurisdiction.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: rights holder, permitted reuse, licensing and attribution requirements]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: working legal contact email or other route]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: effective date]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: whether any account, subscription, commercial service or additional terms apply. Add the relevant terms only for services actually offered.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM: how unsolicited submissions may be used, whether a license is required, and how correction requests are handled. Do not assume ownership of a visitor's submission.]",
+      "pass": true
+    },
+    {
+      "name": "terms-of-service.md: blocker enumerated [OWNER TO CONFIRM WITH COUNSEL: any additional professional-advice disclaimer appropriate to the content and applicable law. Finance and insurance content remain outside the approved launch scope.]",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "wp": "7.1.3",
+    "php": "8.2.35",
+    "rank_math": "1.0.280",
+    "results": [
+        {
+            "name": "Fallback suppresses Rank Math and emits exactly one custom graph",
+            "pass": true
+        }
+    ]
+}

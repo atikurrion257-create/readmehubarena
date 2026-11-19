@@ -1,0 +1,99 @@
+{
+    "wp": "7.1.3",
+    "php": "8.2.35",
+    "acf": "6.8.11",
+    "results": [
+        {
+            "name": "WordPress and PHP versions",
+            "pass": true
+        },
+        {
+            "name": "Plugin and ACF loaded",
+            "pass": true
+        },
+        {
+            "name": "ACF groups imported",
+            "pass": true
+        },
+        {
+            "name": "Seed creates 17 drafts",
+            "pass": true
+        },
+        {
+            "name": "Repeat seeding preserves approval and URL",
+            "pass": true
+        },
+        {
+            "name": "Affiliate shortcode resolves draft tool, strips www and marks link",
+            "pass": true
+        },
+        {
+            "name": "ACF price fields and date read correctly",
+            "pass": true
+        },
+        {
+            "name": "Pricing table includes sourced price",
+            "pass": true
+        },
+        {
+            "name": "Six synced block records provision idempotently",
+            "pass": true
+        },
+        {
+            "name": "WordPress renders synced block reference",
+            "pass": true
+        },
+        {
+            "name": "Expired date overrides active status",
+            "pass": true
+        },
+        {
+            "name": "Current verified deal counts as active",
+            "pass": true
+        },
+        {
+            "name": "Current deal is active and source attributed",
+            "pass": true
+        },
+        {
+            "name": "Active deal filter excludes expired offers",
+            "pass": true
+        },
+        {
+            "name": "Expired deal filter labels expired offers",
+            "pass": true
+        },
+        {
+            "name": "Taxonomies contain two silos and seven clusters",
+            "pass": true
+        },
+        {
+            "name": "Affiliate disclosure precedes CTA",
+            "pass": true
+        },
+        {
+            "name": "Mode B without attachments fails closed",
+            "pass": true
+        },
+        {
+            "name": "Mode B needs reviewed attached evidence",
+            "pass": true
+        },
+        {
+            "name": "Mode B graph contains visible reviewed item and lists, no rating",
+            "pass": true
+        },
+        {
+            "name": "Locked hierarchical paths resolve to expected pages",
+            "pass": true
+        },
+        {
+            "name": "Locked path queries published leaf under draft intermediate",
+            "pass": true
+        },
+        {
+            "name": "Elementor dynamic hook marks RMH shortcode",
+            "pass": true
+        }
+    ]
+}
